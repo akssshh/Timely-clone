@@ -1,0 +1,19 @@
+* {
+    border: 0;
+    margin: 0;
+}
+
+.main {
+    background: radial-gradient(circle at 0 0,#491d8b 38%,#8a3ffc);
+    width: 100vw;
+    min-height: 100vh;
+    position: fixed;
+}
+
+.gradient {
+    background-image: url(../public/asset\ 46.svg);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin-top: 100px;
+    width: 100%;
+}
