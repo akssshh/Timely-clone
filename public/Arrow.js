@@ -11,7 +11,7 @@ export default function Arrow() {
       preserveAspectRatio="xMidYMid meet"
       aria-hidden="true"
       role="img"
-      className="text-primary ml-2 "
+      className="text-primary "
     >
       <path
         d="M2 8H25.5M25.5 8L19.5 2M25.5 8L19.5 14"

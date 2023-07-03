@@ -1,6 +1,15 @@
 "use client"
 import Image from 'next/image';
 import Arrow from "../public/Arrow"
+import Amazon from "../public/amazon.svg"
+import Kelloggs from "../public/kelloggs.svg"
+import Pepsico from "../public/pepsico.svg"
+import Havas from "../public/havas.svg"
+import Workday from "../public/workday.svg"
+import Marriott from "../public/marriott.svg"
+import Yale from "../public/yale.svg"
+import Grant from "../public/grant.svg"
+import VideoPlayer from './VideoPlayer';
 
 
 
@@ -20,13 +29,33 @@ export default function Hero() {
           </div>
 
           
-            <div className='flex justify-center ' >
-              <button className='flex text-black h-[52px] w-[160px]    rounded-2xl  justify-center items-center  bg-white mb-[96px] ' >Get Started
-                <div className='' ><Arrow /></div>
+            <div className='flex justify-center mb-[96px]' >
+              <button className='flex text-black h-[52px] w-[160px] justify-center items-center bg-white rounded-2xl'>Get Started
+                <div className='ml-2' ><Arrow /></div>
               </button>
             </div>
-          
-        
+
+            <div>
+              <div className='mb-[8px]'>
+                <p className='text-[14px] text-yellow leading-5 ' >Trusted by tens of thousands of users, in some of the biggest companies</p>
+              </div>
+              <div className='flex place-content-evenly mb-[48px]' >
+                <Image src={Amazon} alt='amazon-logo' />
+                <Image src={Kelloggs} alt='kelloggs-logo' />
+                <Image src={Pepsico} alt='pepsico-logo' />
+                <Image src={Havas} alt='havas-logo' />
+                <Image src={Workday} alt='workday-logo' />
+                <Image src={Marriott} alt='marriott-logo' />
+                <Image src={Yale} alt='yale-logo' />
+                <Image src={Grant} alt='grant-logo' />
+              </div>
+            </div>
+
+            <div>
+            <VideoPlayer />
+            </div>
+
+
       </div>
     </main>
   )
