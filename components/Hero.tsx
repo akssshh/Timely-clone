@@ -51,8 +51,8 @@ export default function Hero() {
               </div>
             </div>
 
-            <div>
-            <VideoPlayer />
+            <div  >
+              <VideoPlayer />
             </div>
 
 
