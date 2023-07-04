@@ -1,4 +1,7 @@
 "use client"
+import Image from 'next/image';
+import Time from "../public/time.svg"
+import Greater from "../public/greater.svg"
 
 export default function Features() {
     return (
@@ -21,7 +24,64 @@ export default function Features() {
                         </p>
                     </div>
                 </div>
-                <div></div>
+                <div className=" w-[1200px] h-[279px] flex justify-between mt-[48px]" >
+                <div className="w-[288px] h-[278px] bg-secondary rounded-3xl" >
+
+                    <div className=' p-[22px] flex flex-col ' >
+                        <Image src={Time} className='mb-[24px]' alt='time-svg'/>
+                        <h1 className=' text-[32px] font-bold tracking-[-0.96px] leading-[35.2px] text-white ' >Track time</h1>
+                        <p className='text-white text-[20px] tracking-[-0.32px] leading-[30px]font-light mb-[30px] ' >Get the complete picture of your work day with zero effort</p>
+
+                        <div className='flex' >
+                            <p className='text-white underline' >Automate time tracking</p>
+                            <Image src={Greater} className='mt-[2px] ml-[8px] ' alt="greater-svg" />
+                        </div>
+                    </div>
+
+                </div>
+                <div className="w-[288px] h-[278px] bg-secondary rounded-3xl" >
+
+                <div className=' p-[22px] flex flex-col ' >
+                        <Image src={Time} className='mb-[24px]' alt='time-svg'/>
+                        <h1 className=' text-[32px] font-bold tracking-[-0.96px] leading-[35.2px] text-white ' >Track time</h1>
+                        <p className='text-white text-[20px] tracking-[-0.32px] leading-[30px]font-light mb-[30px] ' >Get the complete picture of your work day with zero effort</p>
+
+                        <div className='flex' >
+                            <p className='text-white underline' >Automate time tracking</p>
+                            <Image src={Greater} className='mt-[2px] ml-[8px] ' alt="greater-svg" />
+                        </div>
+                    </div>
+
+                </div>
+                <div className="w-[288px] h-[278px] bg-secondary rounded-3xl" >
+
+                <div className=' p-[22px] flex flex-col ' >
+                        <Image src={Time} className='mb-[24px]' alt='time-svg'/>
+                        <h1 className=' text-[32px] font-bold tracking-[-0.96px] leading-[35.2px] text-white ' >Track time</h1>
+                        <p className='text-white text-[20px] tracking-[-0.32px] leading-[30px]font-light mb-[30px] ' >Get the complete picture of your work day with zero effort</p>
+
+                        <div className='flex' >
+                            <p className='text-white underline' >Automate time tracking</p>
+                            <Image src={Greater} className='mt-[2px] ml-[8px] ' alt="greater-svg" />
+                        </div>
+                    </div>
+
+                </div>
+                <div className="w-[288px] h-[278px] bg-secondary rounded-3xl" >
+
+                <div className=' p-[22px] flex flex-col ' >
+                        <Image src={Time} className='mb-[24px]' alt='time-svg'/>
+                        <h1 className=' text-[32px] font-bold tracking-[-0.96px] leading-[35.2px] text-white ' >Track time</h1>
+                        <p className='text-white text-[20px] tracking-[-0.32px] leading-[30px]font-light mb-[30px] ' >Get the complete picture of your work day with zero effort</p>
+
+                        <div className='flex' >
+                            <p className='text-white underline' >Automate time tracking</p>
+                            <Image src={Greater} className='mt-[2px] ml-[8px] ' alt="greater-svg" />
+                        </div>
+                    </div>
+
+                </div>
+                </div>
             </div>
         </main>
     )
