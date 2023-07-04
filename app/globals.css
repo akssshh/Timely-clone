@@ -11,3 +11,28 @@
 .circularstd-font {
   font-family: 'Circularstd', sans-serif;
 }
+
+.image-one {
+  animation: move-up 30s linear infinite;
+}
+
+.image-two {
+  animation: scroll 30s linear infinite;
+}
+
+@keyframes move-up {
+  from {
+    transform: translateY(0); /* Set the initial position of the image */
+  }
+  to {
+    transform: translateY(100%); /* Set the final position of the image */
+  }
+}
+
+
+@keyframes scroll {
+  from {
+    transform: translateY(-100%); /* Set the initial position of the image */
+  }
+  
+}
