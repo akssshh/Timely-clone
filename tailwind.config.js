@@ -13,7 +13,12 @@ module.exports = {
         secondary: "#7239C7",
         black: "#001141",
         grey: "#71787E"
-      }
+      },
+
+      gridTemplateColumns: {
+        custom: 'repeat(auto-fit, minmax(12rem, 1fr))',
+      },
+
     },
   },
   plugins: [],
