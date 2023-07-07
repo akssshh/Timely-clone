@@ -12,11 +12,16 @@ module.exports = {
         yellow: "#FFDE66",
         secondary: "#7239C7",
         black: "#001141",
-        grey: "#71787E"
+        grey: "#71787E",
+        pink: "#f6f2ff"
       },
 
       gridTemplateColumns: {
         custom: 'repeat(auto-fit, minmax(12rem, 1fr))',
+      },
+
+      maxWidth: {
+        'screen': '100vw',
       },
 
     },

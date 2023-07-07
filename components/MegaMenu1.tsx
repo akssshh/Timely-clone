@@ -1,5 +1,6 @@
 import Image from "next/image"
 import TimeDD from "../public/time-dd.svg"
+import Asana from "../public/asana.png"
 
 export default function MegaMenu1() {
   return (
@@ -192,8 +193,6 @@ export default function MegaMenu1() {
                                 </div>
                             </div>
 
-
-
                         </div>
                     </div>
 
@@ -201,17 +200,68 @@ export default function MegaMenu1() {
 
 
 
-
-
-
-
-
-
-
-
                 </div>
-                <div className=' max-w-[330px] h-[543px] py-[32px] pl-[32px]   ' >
-                    
+                <div className=' max-w-[362px] pl-[32px] py-[32px] h-[608px] relative  ' >
+                    <div className=" w-[329px] h-[510px]  " >
+                        <div className=" w-[329px] h-[30px] circularstd-font text-[20px] text-bold  leading-[30px] text-black" >Integrations</div>
+
+                        <div className=" w-[329px] h-[380px]" >
+
+                            <div className=" w-[329px] h-[54px] py-[8px] " >
+                                <div className=" w-[95px]  flex justify-between " >
+                                    <div className=" w-[32px] h-[32px] " > <Image src={Asana} alt="asana-logo" /> </div>
+                                    <div className=" w-[45px] h-[28px] text-[16px] circularstd-font leading-[24px]" >Asana</div>
+                                </div>
+                            </div>
+
+                            <div className=" w-[329px] h-[54px] py-[8px] " >
+                                <div className=" w-[95px]  flex justify-between " >
+                                    <div className=" w-[32px] h-[32px] " > <Image src={Asana} alt="asana-logo" /> </div>
+                                    <div className=" w-[45px] h-[28px] text-[16px] circularstd-font leading-[24px]" >Asana</div>
+                                </div>
+                            </div>
+
+                            <div className=" w-[329px] h-[54px] py-[8px] " >
+                                <div className=" w-[95px]  flex justify-between " >
+                                    <div className=" w-[32px] h-[32px] " > <Image src={Asana} alt="asana-logo" /> </div>
+                                    <div className=" w-[45px] h-[28px] text-[16px] circularstd-font leading-[24px]" >Asana</div>
+                                </div>
+                            </div>
+
+                            <div className=" w-[329px] h-[54px] py-[8px] " >
+                                <div className=" w-[95px]  flex justify-between " >
+                                    <div className=" w-[32px] h-[32px] " > <Image src={Asana} alt="asana-logo" /> </div>
+                                    <div className=" w-[45px] h-[28px] text-[16px] circularstd-font leading-[24px]" >Asana</div>
+                                </div>
+                            </div>
+
+                            <div className=" w-[329px] h-[54px] py-[8px] " >
+                                <div className=" w-[95px]  flex justify-between " >
+                                    <div className=" w-[32px] h-[32px] " > <Image src={Asana} alt="asana-logo" /> </div>
+                                    <div className=" w-[45px] h-[28px] text-[16px] circularstd-font leading-[24px]" >Asana</div>
+                                </div>
+                            </div>
+
+                            <div className=" w-[329px] h-[54px] py-[8px] " >
+                                <div className=" w-[95px]  flex justify-between " >
+                                    <div className=" w-[32px] h-[32px] " > <Image src={Asana} alt="asana-logo" /> </div>
+                                    <div className=" w-[45px] h-[28px] text-[16px] circularstd-font leading-[24px]" >Asana</div>
+                                </div>
+                            </div>
+
+                            <div className=" w-[329px] h-[54px] py-[8px] " >
+                                <div className=" w-[95px]  flex justify-between " >
+                                    <div className=" w-[32px] h-[32px] " > <Image src={Asana} alt="asana-logo" /> </div>
+                                    <div className=" w-[45px] h-[28px] text-[16px] circularstd-font leading-[24px]" >Asana</div>
+                                </div>
+                            </div>
+
+                            
+
+                        </div>
+
+                        <div className="w-[698px] h-[606px] bg-pink pink-back absolute top-0 bottom-0 left-0 right-auto z-[-2] " ></div>
+                    </div>
                 </div>
             </div>
         </div>
