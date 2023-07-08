@@ -8,10 +8,10 @@ import MegaMenu1 from "@/components/MegaMenu1"
 export default function Home() {
   return (
     <main className="">
-      <MegaMenu1 />
+      {/* <MegaMenu1 /> */}
       {/* <Header /> */}
       {/* <Hero /> */}
-      {/* <Features /> */}
+      <Features />
       {/* <Testimonial /> */}
       {/* <Pros /> */}
     </main>
