@@ -1,6 +1,9 @@
 "use client"
 import Image from 'next/image';
 import Time from "../public/time.svg"
+import Project from "../public/project.svg"
+import Team from "../public/teams.svg"
+import Plans from "../public/plans.svg"
 import Greater from "../public/greater.svg"
 
 export default function Features() {
@@ -42,7 +45,7 @@ export default function Features() {
                 <div className="w-[288px] h-[278px] bg-secondary rounded-3xl" >
 
                 <div className=' p-[22px] flex flex-col ' >
-                        <Image src={Time} className='mb-[24px]' alt='time-svg'/>
+                        <Image src={Project} className='mb-[24px]' alt='time-svg'/>
                         <h1 className=' text-[32px] font-bold tracking-[-0.96px] leading-[35.2px] text-white ' >Track projects</h1>
                         <p className='text-white text-[20px] tracking-[-0.32px] leading-[30px]font-light mb-[30px] ' >Monitor budgets, hours and activities in real time</p>
 
@@ -56,7 +59,7 @@ export default function Features() {
                 <div className="w-[288px] h-[278px] bg-secondary rounded-3xl" >
 
                 <div className=' p-[22px] flex flex-col ' >
-                        <Image src={Time} className='mb-[24px]' alt='time-svg'/>
+                        <Image src={Team} className='mb-[24px]' alt='time-svg'/>
                         <h1 className=' text-[32px] font-bold tracking-[-0.96px] leading-[35.2px] text-white ' >Track teams</h1>
                         <p className='text-white text-[20px] tracking-[-0.32px] leading-[30px]font-light mb-[30px] ' >Get a complete overview of your team’s time</p>
 
@@ -76,7 +79,7 @@ export default function Features() {
 
                         <div className='flex mt-[30px] ' >
                             <p className='text-white underline' >Project and team planning</p>
-                            <Image src={Greater} className='mt-[2px] ml-[8px] ' alt="greater-svg" />
+                            <Image src={Plans} className='mt-[2px] ml-[8px] ' alt="greater-svg" />
                         </div>
                     </div>
 
