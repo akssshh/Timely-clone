@@ -6,6 +6,18 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+
+    screens: {
+      'sm': '576px',
+      // => @media (min-width: 576px) { ... }
+
+      'md': '960px',
+      // => @media (min-width: 960px) { ... }
+
+      'lg': '1440px',
+    },
+
+
     extend: {
       colors: {
         primary: "#622BB6",
@@ -21,9 +33,8 @@ module.exports = {
       },
 
       maxWidth: {
-        'screen': '100vw',
+        // 'screen': '100vw',
       },
-
     },
   },
   plugins: [],

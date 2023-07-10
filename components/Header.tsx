@@ -7,7 +7,7 @@ import Arrow from "../public/Arrow"
 export default function Header() {
   return (
     <nav className="bg-primary">
-      <div className="container sm:mx-auto px-4 ">
+      <div className="container sm:mx-auto px-4 max-w-[1280px] ">
         <div className="flex items-center justify-between h-[72px]  ">
           {/* <!-- Logo with text --> */}
           <div className="flex items-center">
