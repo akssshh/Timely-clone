@@ -5,12 +5,15 @@ import Pros from "@/components/Pros"
 import Header from "@/components/Header"
 import MegaMenu1 from "@/components/MegaMenu1"
 
+import Header3 from "@/components/Header3"
+
 export default function Home() {
   return (
     <main className="">
       {/* <MegaMenu1 /> */}
       <Header />
-      {/* <Hero /> */}
+      {/* <Header3 /> */}
+      <Hero />
       {/* <Features /> */}
       {/* <Testimonial /> */}
       {/* <Pros /> */}

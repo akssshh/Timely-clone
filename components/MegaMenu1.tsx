@@ -4,10 +4,10 @@ import Asana from "../public/asana.png"
 
 export default function MegaMenu1() {
   return (
-    <main className='max-w-[1920px] h-[608px] px-[96px]' >
+    <main className='max-w-[1920px]  absolute max-w-screen-xl top-[18px] right-[-765px] h-[608px] px-[96px]' >
         <div className='max-w-[1728px] h-[608px]  ' >
             <div className='max-w-[1280px] mx-auto   flex  ' >
-                <div className='max-w-[902px] h-[608px] py-[40px]   ' >
+                <div className='max-w-[1902px] h-[608px] py-[40px]  bg-white ' >
                     <div className='w-[902px] h-[152px] '>
                         <div className='w-[902px] h-[30px] circularstd-font text-[20px] text-bold  leading-[30px] mb-[16px] '>Features</div>
                         <div className='w-[902px] h-[106px] circularstd-font flex justify-between ' >

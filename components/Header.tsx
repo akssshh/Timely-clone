@@ -3,6 +3,7 @@ import Image from 'next/image'
 import TimelyLogo from "../public/timelylogo.svg"
 import Greater from "../public/greater.svg"
 import Arrow from "../public/Arrow"
+import MegaMenu from "../components/MegaMenu1"
 
 export default function Header() {
   return (
@@ -39,11 +40,9 @@ export default function Header() {
                 
               </button>
               {/* <!-- Mega menu content --> */}
-              <div className="hidden group-hover:block absolute z-10 bg-gray-800 py-2 mt-2 rounded-md shadow-lg">
+              <div className="hidden group-hover:block absolute z-10 left-0  mt-2 rounded-md shadow-lg">
                 {/* <!-- Mega menu items --> */}
-                <a href="#" className="block px-4 py-2 text-sm text-white hover:bg-gray-700">Sublink 1</a>
-                <a href="#" className="block px-4 py-2 text-sm text-white hover:bg-gray-700">Sublink 2</a>
-                <a href="#" className="block px-4 py-2 text-sm text-white hover:bg-gray-700">Sublink 3</a>
+                <MegaMenu />
               </div>
             </div>
 
