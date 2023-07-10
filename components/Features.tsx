@@ -61,7 +61,7 @@ export default function Features() {
                 <div className=' p-[22px] flex flex-col ' >
                         <Image src={Team} className='mb-[24px]' alt='time-svg'/>
                         <h1 className=' text-[32px] font-bold tracking-[-0.96px] leading-[35.2px] text-white ' >Track teams</h1>
-                        <p className='text-white text-[20px] tracking-[-0.32px] leading-[30px]font-light mb-[30px] ' >Get a complete overview of your team’s time</p>
+                        <p className='text-white text-[20px] tracking-[-0.32px] leading-[30px]font-light mb-[30px]  ' >Get a complete overview of your team’s time</p>
 
                         <div className='flex mt-[30px] ' >
                             <p className='text-white underline' >Lead happier teams</p>
@@ -73,13 +73,13 @@ export default function Features() {
                 <div className="w-[288px] h-[278px] bg-secondary rounded-3xl" >
 
                 <div className=' p-[22px] flex flex-col ' >
-                        <Image src={Time} className='mb-[24px]' alt='time-svg'/>
+                        <Image src={Plans} className='mb-[24px]' alt='time-svg'/>
                         <h1 className=' text-[32px] font-bold tracking-[-0.96px] leading-[35.2px] text-white ' >Track plans</h1>
                         <p className='text-white text-[20px] tracking-[-0.32px] leading-[30px]font-light mb-[30px] ' >Real-time feedback loop of how plans actually unfold</p>
 
                         <div className='flex mt-[30px] ' >
                             <p className='text-white underline' >Project and team planning</p>
-                            <Image src={Plans} className='mt-[2px] ml-[8px] ' alt="greater-svg" />
+                            <Image src={Greater} className='mt-[2px] ml-[8px] ' alt="greater-svg" />
                         </div>
                     </div>
 

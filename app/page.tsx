@@ -9,9 +9,9 @@ export default function Home() {
   return (
     <main className="">
       {/* <MegaMenu1 /> */}
-      {/* <Header /> */}
+      <Header />
       {/* <Hero /> */}
-      <Features />
+      {/* <Features /> */}
       {/* <Testimonial /> */}
       {/* <Pros /> */}
     </main>
