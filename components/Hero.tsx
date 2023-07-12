@@ -16,7 +16,7 @@ import VideoPlayer from './VideoPlayer';
 export default function Hero() {
   return (
     <main className="bg-primary flex justify-center items-center" >
-      <div className="w-[1280px] text-center circularstd-font">
+      <div className="w-[1280px] text-center circularstd-font pt-[112px] ">
         
           <p className="text-[20px] font-bold tracking-[-0.32px] text-white "> <span className="text-yellow">Timely</span> time tracking software</p>
           <div className="font-bold text-[112px] tracking-[-3.2px] leading-[100.8px] text-white mb-[24px]">
