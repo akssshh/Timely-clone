@@ -12,6 +12,17 @@
   font-family: 'Circularstd', sans-serif;
 }
 
+@font-face {
+  font-family: 'CircularStdBook';
+  src: url('../fonts/CircularStdBook.ttf') format('truetype');
+  font-weight: 400;
+  /* Add more font formats if needed */
+}
+
+.circularstd-normal {
+  font-family: 'CircularStdBook', sans-serif;
+}
+
 .image-one {
   animation: move-up 30s linear infinite;
 }
@@ -101,4 +112,8 @@
   top: -1px;
 }
 
+
+.grid-template {
+  grid-template-columns: 1fr .4fr;
+}
 

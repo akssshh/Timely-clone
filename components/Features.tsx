@@ -9,12 +9,12 @@ import Greater from "../public/greater.svg"
 export default function Features() {
     return (
         <main>
-            <div className='w-[1280px] h-[662px] bg-primary mx-auto circularstd-font my-[112px] rounded-3xl p-[40px] ' >
-                <div className=" w-[1200px] mx-auto h-[256px] flex justify-between " >
-                    <div className=" w-[590px] font-bold text-[88px] tracking-[-3.2px] leading-[88px] text-white  ">
+            <div className='w-[1280px] h-[662px] bg-primary mx-auto  my-[112px] rounded-3xl p-[40px] ' >
+                <div className=" w-[1200px] mx-auto h-[256px]  flex justify-between " >
+                    <div className=" w-[590px] font-bold text-[88px] tracking-[-3.2px] leading-[88px] text-white circularstd-font ">
                         <h1> <span className="text-yellow"> Automate </span> your <br/> time tracking</h1>
                     </div>
-                    <div className=" w-[572px] text-[20px] tracking-[-0.32px] leading-[30px]  text-white">
+                    <div className=" w-[572px] text-[20px] tracking-[-0.32px] leading-[30px]  text-white circularstd-normal ">
                         <p>
                             Forget timers, note taking and manual input— <strong>Timely </strong> can <strong> track </strong> time spent in every web and desktop app automatically for you.
                             <br/>
@@ -32,8 +32,8 @@ export default function Features() {
 
                     <div className=' p-[22px] flex flex-col ' >
                         <Image src={Time} className='mb-[24px]' alt='time-svg'/>
-                        <h1 className=' text-[32px] font-bold tracking-[-0.96px] leading-[35.2px] text-white ' >Track time</h1>
-                        <p className='text-white text-[20px] tracking-[-0.32px] leading-[30px]font-light mb-[30px] ' >Get the complete picture of your work day with zero effort</p>
+                        <h1 className=' text-[32px] font-bold tracking-[-0.96px] leading-[35.2px] text-white circularstd-font ' >Track time</h1>
+                        <p className='text-white text-[20px] tracking-[-0.32px] leading-[30px]font-light mb-[30px] circularstd-normal ' >Get the complete picture of your work day with zero effort</p>
 
                         <div className='flex' >
                             <p className='text-white underline' >Automate time tracking</p>
