@@ -7,7 +7,6 @@ import MegaMenu1 from "@/components/MegaMenu1"
 
 import Header from "@/components/Header"
 
-// import MM2 from "@/components/MM2"
 
 
 export default function Home() {
@@ -18,7 +17,7 @@ export default function Home() {
       {/* <MegaMenu1 /> */}
       {/* <Header2 />  */}
       <Header />
-      {/* <MM2 /> */}
+      {/* <MM3 /> */}
       {/* <Hero /> */}
       {/* <Features /> */}
       {/* <Testimonial /> */}

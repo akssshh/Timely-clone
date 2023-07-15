@@ -13,18 +13,25 @@ function Header3() {
   return (
     
 <nav className="bg-primary border-gray-200 h-[72px] dark:border-gray-600 dark:bg-gray-900">
-    <div className="flex flex-wrap  justify-between items-center mx-auto max-w-screen-xl p-0 max-w-[1280px] h-[72px] ">
-        <a href="https://flowbite.com" className="flex items-center">
-        <Image src={TimelyLogo} alt="Logo" className="h-[42px] w-[130px] " />
-        </a>
-        <button data-collapse-toggle="mega-menu-full-cta" type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mega-menu-full-cta" aria-expanded="false">
-            <span className="sr-only">Open main menu</span>
-            <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-                <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 1h15M1 7h15M1 13h15"/>
-            </svg>
-        </button>
-        <div id="mega-menu-full-cta" className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1 md:bg-primary mobile-nav-bg mt-[32px] md:mt-0  ">
-            <ul className="flex items-center  flex-col mt-4 font-medium md:flex-row md:space-x-6 md:mt-0 ">
+    <div className="flex flex-wrap  justify-between items-center mx-auto max-w-screen-xl pr-0 md:pr-0 py-4 md:p-0 max-w-[1280px] h-[72px] ">
+       
+            
+                <a href="https://flowbite.com" className="flex items-center pl-4 md:pl-4 ">
+                    <Image src={TimelyLogo} alt="Logo" className="h-[42px] w-[130px] " />
+                </a>
+            
+        
+            <div className='mr-4' >
+                <button data-collapse-toggle="mega-menu-full-cta" type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600  " aria-controls="mega-menu-full-cta" aria-expanded="false">
+                    <span className="sr-only">Open main menu</span>
+                    <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                        <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 1h15M1 7h15M1 13h15"/>
+                    </svg>
+                </button>
+            </div>
+
+        <div id="mega-menu-full-cta" className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1 md:bg-primary mobile-nav-bg mt-[14px] md:mt-0  ">
+            <ul className="flex items-center  flex-col mt-[0px] font-medium md:flex-row md:space-x-6 md:mt-0 ">
                 <li>
                     <a href="#" className="block py-2 pl-3 pr-4 text-white border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 dark:border-gray-700" aria-current="page">Product</a>
                 </li>
