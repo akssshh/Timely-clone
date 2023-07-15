@@ -44,7 +44,7 @@ export default function Header() {
               {/* <!-- Mega menu content --> */}
               <div className=" group-hover:block absolute z-10 left-0  mt-2 rounded-md shadow-lg">
                 {/* <!-- Mega menu items --> */}
-                <MegaMenu1 />
+                {/* <MegaMenu1 /> */}
 
                 {/* <MM2 /> */}
 

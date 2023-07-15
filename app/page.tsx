@@ -15,9 +15,9 @@ export default function Home() {
 
   return (
     <main className="">
-      <MegaMenu1 />
-      {/* <Header2 /> */}
-      {/* <Header /> */}
+      {/* <MegaMenu1 /> */}
+      {/* <Header2 />  */}
+      <Header />
       {/* <MM2 /> */}
       {/* <Hero /> */}
       {/* <Features /> */}

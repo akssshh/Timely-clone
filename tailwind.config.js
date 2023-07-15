@@ -28,7 +28,8 @@ module.exports = {
         secondary: "#7239C7",
         black: "#001141",
         grey: "#71787E",
-        pink: "#f6f2ff"
+        pink: "#f6f2ff",
+        purple: "#491d8b"
       },
 
       gridTemplateColumns: {
