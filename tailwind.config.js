@@ -42,11 +42,11 @@ module.exports = {
 
       gridColumn: {
         'minmax-10': 'minmax(10rem, 1fr)',
-      },
+      }
 
     },
   },
   plugins: [
     require('flowbite/plugin')
-  ],
+  ]
 }
