@@ -36,7 +36,7 @@ export default function Header() {
           <div className="hidden md:flex md:items-center md:space-x-4">
             {/* <!-- Mega menu 1 --> */}
             <div className="relative group">
-              <button type="button" className="text-gray-300 flex hover:text-white focus:outline-none focus:text-white">
+              <button type="button" className="text-gray-300 flex hover:text-white focus:outline-none">
                 <span className="text-[16px]  ">Product</span>
                 <Image src={Greater} className='mt-[4px] ml-[4px] rotate-90 ' alt="greater-svg " />
 
