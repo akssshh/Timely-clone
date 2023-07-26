@@ -25,22 +25,22 @@ export default function Hero() {
           </h1>
         </div>
 
-        {/* <div className="mb-[48px] px-4" >
+        <div className="mb-[48px]" >
           <p className="text-[24px] text-white" > <span className="text-yellow">Timely</span> automates company time tracking, so you and your team can <br /> <span className="text-yellow">focus on the work that matters.</span></p>
-        </div> */}
+        </div>
 
 
-        {/* <div className='flex justify-center mb-[96px]' >
-          <button className='flex text-black h-[52px] w-[160px] justify-center items-center bg-white rounded-2xl'>Get Started
+        <div className='flex justify-center mb-[96px] w-full ' >
+          <button className='flex text-black h-[52px] w-full md:w-[160px] justify-center items-center bg-white rounded-2xl'>Get Started
             <div className='ml-2' ><Arrow /></div>
           </button>
-        </div> */}
+        </div>
 
-        {/* <div>
+        <div>
           <div className='mb-[8px]'>
             <p className='text-[14px] text-yellow leading-5 ' >Trusted by tens of thousands of users, in some of the biggest companies</p>
           </div>
-          <div className='flex flex-col md:flex-row md:place-content-evenly mb-[48px]' >
+          <div className='grid sm:grid-cols-4 grid-cols-2 md:grid-cols-8 gap-4 mb-[48px] place-items-center' >
             <Image src={Amazon} alt='amazon-logo' />
             <Image src={Kelloggs} alt='kelloggs-logo' />
             <Image src={Pepsico} alt='pepsico-logo' />
@@ -50,13 +50,13 @@ export default function Hero() {
             <Image src={Yale} alt='yale-logo' />
             <Image src={Grant} alt='grant-logo' />
           </div>
-        </div> */}
+        </div>
 
-        {/* <div className='w-full overflow-hidden px-4' >
-          <video className='w-full h-[720px] mb-[112px] rounded-3xl' playsInline muted loop autoPlay controls>
+        <div className='w-full overflow-hidden rounded-2xl' >
+          <video className='w-full ' playsInline muted loop autoPlay controls>
             <source src="/Dashboard.mp4" type="video/mp4" />
           </video>
-        </div> */}
+        </div>
 
 
       </div>
