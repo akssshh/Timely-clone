@@ -29,7 +29,8 @@ module.exports = {
         black: "#001141",
         grey: "#71787E",
         pink: "#f6f2ff",
-        purple: "#491d8b"
+        purple: "#491d8b",
+        golden: "#F5BF1C"
       },
 
       gridTemplateColumns: {
