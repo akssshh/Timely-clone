@@ -11,6 +11,8 @@ import MM3 from "@/components/MM3"
 
 import Testimonial1 from "@/components/Testimonial1"
 import LogoStats from "@/components/LogoStats"
+import Footer from "@/components/Footer"
+
 
 export default function Home() {
 
@@ -28,7 +30,8 @@ export default function Home() {
       {/* <Testimonial /> */}
       {/* <Testimonial1 /> */}
       {/* <Pros /> */}
-      <LogoStats />
+      {/* <LogoStats /> */}
+      <Footer />
     </main>
   )
 }
