@@ -1,6 +1,21 @@
 import emailLogo from "../public/email.png"
 import TimelyLogo from "../public/timelylogo.svg"
 import Image from "next/image"
+import Logo2 from "../public/stacklogo2.png"
+import Logo3 from "../public/stacklogo3.png"
+import Logo4 from "../public/stacklogo4.png"
+import Logo5 from "../public/stacklogo5.png"
+import Logo7 from "../public/stacklogo7.png"
+import Logo8 from "../public/stacklogo8.png"
+import Logo9 from "../public/stacklogo9.png"
+import Logo10 from "../public/stacklogo10.png"
+import Logo11 from "../public/stacklogo11.png"
+import Logo12 from "../public/stacklogo12.png"
+import Logo13 from "../public/stacklogo13.png"
+import Logo14 from "../public/stacklogo14.png"
+import Logo15 from "../public/stacklogo15.png"
+import Logo16 from "../public/stacklogo16.png"
+import Logo17 from "../public/stacklogo17.png"
 
 function LogoStats() {
     return (
@@ -30,52 +45,52 @@ function LogoStats() {
                             <Image className="  " src={emailLogo} alt="Transistor" width="60" height="60" />
                         </div>
                         <div>
-                            <Image className="  " src={emailLogo} alt="Transistor" width="60" height="60" />
+                            <Image className="  " src={Logo2} alt="Transistor" width="60" height="60" />
                         </div>
                         <div>
-                            <Image className="  " src={emailLogo} alt="Transistor" width="60" height="60" />
+                            <Image className="  " src={Logo3} alt="Transistor" width="60" height="60" />
                         </div>
                         <div>
-                            <Image className="  " src={emailLogo} alt="Transistor" width="60" height="60" />
+                            <Image className="  " src={Logo4} alt="Transistor" width="60" height="60" />
                         </div>
                         <div>
-                            <Image className="  " src={emailLogo} alt="Transistor" width="60" height="60" />
+                            <Image className="  " src={Logo5} alt="Transistor" width="60" height="60" />
                         </div>
                         <div>
-                            <Image className="  " src={emailLogo} alt="Transistor" width="60" height="60" />
+                            <Image className="  " src={Logo7} alt="Transistor" width="60" height="60" />
                         </div>
                         <div>
-                            <Image className="  " src={emailLogo} alt="Transistor" width="60" height="60" />
+                            <Image className="  " src={Logo8} alt="Transistor" width="60" height="60" />
                         </div>
                         <div>
-                            <Image className="  " src={emailLogo} alt="Transistor" width="60" height="60" />
+                            <Image className="  " src={Logo9} alt="Transistor" width="60" height="60" />
                         </div>
                         <div>
-                            <Image className="  " src={emailLogo} alt="Transistor" width="60" height="60" />
+                            <Image className="  " src={Logo10} alt="Transistor" width="60" height="60" />
                         </div>
                         <div>
-                            <Image className="  " src={emailLogo} alt="Transistor" width="60" height="60" />
+                            <Image className="  " src={Logo11} alt="Transistor" width="60" height="60" />
                         </div>
                         <div>
-                            <Image className="  " src={emailLogo} alt="Transistor" width="60" height="60" />
+                            <Image className="  " src={Logo12} alt="Transistor" width="60" height="60" />
                         </div>
                         <div>
-                            <Image className="  " src={emailLogo} alt="Transistor" width="60" height="60" />
+                            <Image className="  " src={Logo13} alt="Transistor" width="60" height="60" />
                         </div>
                         <div>
-                            <Image className="  " src={emailLogo} alt="Transistor" width="60" height="60" />
+                            <Image className="  " src={Logo14} alt="Transistor" width="60" height="60" />
                         </div>
                         <div>
-                            <Image className="  " src={emailLogo} alt="Transistor" width="60" height="60" />
+                            <Image className="  " src={Logo15} alt="Transistor" width="60" height="60" />
                         </div>
                         <div>
-                            <Image className="  " src={emailLogo} alt="Transistor" width="60" height="60" />
+                            <Image className="  " src={Logo16} alt="Transistor" width="60" height="60" />
                         </div>
                         <div>
-                            <Image className="  " src={emailLogo} alt="Transistor" width="60" height="60" />
+                            <Image className="  " src={Logo17} alt="Transistor" width="60" height="60" />
                         </div>
                         <div>
-                            <Image className="  " src={emailLogo} alt="Transistor" width="60" height="60" />
+                            <Image className="  " src={Logo} alt="Transistor" width="60" height="60" />
                         </div>
                     </div>
                     <div className="circularstd-font text-[16px] leading-normal text-white">

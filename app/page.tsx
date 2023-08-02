@@ -30,8 +30,8 @@ export default function Home() {
       {/* <Testimonial /> */}
       {/* <Testimonial1 /> */}
       {/* <Pros /> */}
-      {/* <LogoStats /> */}
-      <Footer />
+      <LogoStats />
+      {/* <Footer /> */}
     </main>
   )
 }
