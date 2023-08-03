@@ -9,20 +9,20 @@ import Logo7 from "../public/stacklogo7.png"
 import Logo8 from "../public/stacklogo8.png"
 import Logo9 from "../public/stacklogo9.png"
 import Logo10 from "../public/stacklogo10.png"
-import Logo11 from "../public/stacklogo11.png"
+import Logo11 from "../public/stacklogo11.jpg"
 import Logo12 from "../public/stacklogo12.png"
 import Logo13 from "../public/stacklogo13.png"
 import Logo14 from "../public/stacklogo14.png"
 import Logo15 from "../public/stacklogo15.png"
-import Logo16 from "../public/stacklogo16.png"
+import Logo16 from "../public/stacklogo16.svg"
 import Logo17 from "../public/stacklogo17.png"
 
 function LogoStats() {
     return (
         <main className='' >
-            <div className='bg-primary py-[112px]  '>
+            <div className='bg-primary py-[112px] px-[14px]  '>
 
-                <div className='md:mx-auto md:w-[753px] md:mb-[48px] mb-[30px]' >
+                <div className='md:mx-auto md:w-[753px] md:mb-[48px] mb-[30px] ' >
                     <div className="mb-4 " > 
                         <Image src={TimelyLogo} alt="Logo" className="h-[42px] w-[130px] mx-auto " />
                     </div>
@@ -37,10 +37,10 @@ function LogoStats() {
                     </div>
                 </div>
 
-                <div className="bg-primary lg:w-[1280px] md:mx-auto py-24 sm:py-32 md:mb-[48px] mb-[30px]">
+                <div className=" lg:w-[1280px] md:mx-auto   md:mb-[48px] mb-[30px]">
 
 
-                    <div className="flex justify-center flex-wrap gap-x-16 gap-y-16 md:mb-[48px] mb-[30px]">
+                    <div className="flex justify-center flex-wrap md:gap-x-16 md:gap-y-16 gap-x-8 gap-y-8 md:mb-[48px] mb-[30px]">
                         <div>
                             <Image className="  " src={emailLogo} alt="Transistor" width="60" height="60" />
                         </div>
@@ -89,9 +89,7 @@ function LogoStats() {
                         <div>
                             <Image className="  " src={Logo17} alt="Transistor" width="60" height="60" />
                         </div>
-                        <div>
-                            <Image className="  " src={Logo} alt="Transistor" width="60" height="60" />
-                        </div>
+                        
                     </div>
                     <div className="circularstd-font text-[16px] leading-normal text-white">
                     <p className='text-white underline text-center' >Check all our integrations</p>
