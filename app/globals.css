@@ -112,6 +112,10 @@
   top: -1px;
 }
 
+.cta {
+  letter-spacing: -.02rem;
+}
+
 
 .grid-template {
   grid-template-columns: 1fr .4fr;

@@ -43,7 +43,14 @@ module.exports = {
 
       gridColumn: {
         'minmax-10': 'minmax(10rem, 1fr)',
+      },
+      letterSpacing: {
+        'tighter-custom': '-0.1em',
+      },
+      gridTemplateColumns: {
+        'my-grid': '1fr .5fr', // Specify your custom value here
       }
+
 
     },
   },

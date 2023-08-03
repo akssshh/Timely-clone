@@ -13,6 +13,8 @@ import Testimonial1 from "@/components/Testimonial1"
 import LogoStats from "@/components/LogoStats"
 import Footer from "@/components/Footer"
 
+import Cta from "@/components/Cta"
+
 
 export default function Home() {
 
@@ -30,7 +32,10 @@ export default function Home() {
       {/* <Testimonial /> */}
       {/* <Testimonial1 /> */}
       {/* <Pros /> */}
-      <LogoStats />
+      {/* <LogoStats /> */}
+
+      <Cta />
+
       {/* <Footer /> */}
     </main>
   )
