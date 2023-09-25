@@ -28,15 +28,15 @@
 }
 
 .image-two {
-  animation: scroll 30s linear infinite;
+  animation: scroll 40s linear infinite;
 }
 
 @keyframes move-up {
   from {
-    transform: translateY(0); /* Set the initial position of the image */
+    transform: translateY(-40%); /* Set the initial position of the image */
   }
   to {
-    transform: translateY(100%); /* Set the final position of the image */
+    transform: translateY(10%); /* Set the final position of the image */
   }
 }
 
