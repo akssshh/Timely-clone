@@ -24,10 +24,14 @@ export default function Home() {
       {/* <MegaMenu1 /> */}
       {/* <Header /> */}
       {/* <Header2 />  */}
-      <Header3 /> 
+
+
+      {/* <Header3 />  */}
+
+
       {/* <MM3 /> */}
-      <Hero />
-      <Features />
+      {/* <Hero /> */}
+      {/* <Features /> */}
       {/* <F2 /> */}
       <Testimonial />
       {/* <Testimonial1 /> */}
