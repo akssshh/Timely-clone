@@ -9,13 +9,18 @@ import Workday from "../public/workday.svg"
 import Marriott from "../public/marriott.svg"
 import Yale from "../public/yale.svg"
 import Grant from "../public/grant.svg"
+import StarLogo from "../public/StarLogo.svg"
+import Badge1 from "../public/Badge1.svg"
+import Badge2 from "../public/Badge2.svg"
+import Badge3 from "../public/Badge4.svg"
+import Badge4 from "../public/Badge4.svg"
 
 
 
 export default function Hero() {
   return (
     <main className="bg-primary flex justify-center items-center" >
-      <div className="max-w-[1280px] text-center circularstd-font pt-[112px] px-4 ">
+      <div className="max-w-[1280px] text-center circularstd-font py-[112px] px-4 ">
 
         <p className="text-[20px] font-bold tracking-[-0.32] text-white "> <span className="text-yellow">Timely</span> time tracking software</p>
 
@@ -52,12 +57,23 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className='w-full overflow-hidden rounded-2xl' >
+        <div className='w-full overflow-hidden rounded-2xl mb-[48px] sm:mb-[72px] md:mb-[80px] ' >
           <video className='w-full ' playsInline muted loop autoPlay controls>
             <source src="/Dashboard.mp4" type="video/mp4" />
           </video>
         </div>
 
+        <div className='flex justify-center gap-x-8 flex-wrap  '>
+          <Image src={Badge1} alt='badge1' className='w-[56px] md:w-[72px] md:h-[93px] ' />
+          <Image src={Badge2} alt='badge2' className='w-[56px] md:w-[72px] md:h-[93px] ' />
+          <Image src={Badge3} alt='badge1' className='w-[56px] md:w-[72px] md:h-[93px] ' />
+          <Image src={Badge4} alt='badge1' className='w-[56px] md:w-[72px] md:h-[93px] ' />
+          <Image src={StarLogo} alt='rating' className='md:block hidden ' />
+          <Image src={Badge1} alt='badge1' className='w-[56px] md:w-[72px] md:h-[93px] ' />
+          <Image src={Badge2} alt='badge1' className='w-[56px] md:w-[72px] md:h-[93px] ' />
+          <Image src={Badge3} alt='badge1' className='w-[56px] md:w-[72px] md:h-[93px] ' />
+          <Image src={Badge4} alt='badge1' className='w-[56px] md:w-[72px] md:h-[93px] ' />
+        </div>
 
       </div>
     </main>
